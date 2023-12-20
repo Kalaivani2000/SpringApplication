@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Webseries List</title>
+
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .movie-card {
+            /* Utilizing Bootstrap card styling */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+    .back button {
+    background: none;
+    border: none;
+    color: blue; /* or any other color you prefer */
+    text-decoration: underline;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Webseries</h1>
+    <div class="back">
+        <button onclick="window.location.href='index.html'">Back</button>
+    </div>
+
+    <!-- Bootstrap card -->
+    <div class="card-deck">
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2023/11/18/w1200X800/Label.jpg" class="card-img-top" alt="Movie 1 Image">
+                <h5 class="card-title"><a href="starRating.html">Label (A)</a></h5>
+                <p class="card-text">Revolves around the protagonist's struggle to
+                    reach his desired identity, overcoming the identity society has
+                    labeled him with. Created by Arunraja Kamaraj.</p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://i.ytimg.com/vi/1X_iut1c4lo/maxresdefault.jpg" class="card-img-top" alt="Movie 2 Image">
+                <h5 class="card-title"><a href="starRating.html">Sweet Kaaram Coffee </a></h5>
+                <p class="card-text">In this world, women are bound by a lot of things
+                    and people but in this movie they put themselves ahead of the people
+                    they are bound by.
+                </p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://www.koimoi.com/wp-content/new-galleries/2023/02/ayali-review-001.jpg" class="card-img-top" alt="Movie 3 Image">
+                <h5 class="card-title"><a href="starRating.html">Ayali </a></h5>
+                <p class="card-text">
+                    Ayali is a Tamil-language web series about a teenage girl named
+                    Tamizhselvi who challenges the oppressive traditions of her village
+                    to pursue her dream of becoming a doctor
+                </p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://cdn.gulte.com/wp-content/uploads/2023/10/mansion-24.jpg" class="card-img-top" alt="Movie 4 Image">
+                <h5 class="card-title"><a href="starRating.html">Mansion 24</a></h5>
+                <p class="card-text">Horrific events unfold as Amrutha searches for her
+                    missing father in an old mansion. Time is running out, but she
+                    must survive terrifying forces and secrets. Created by OHMKAR.</p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://upload.wikimedia.org/wikipedia/en/f/f6/November_Story_Poster.png" class="card-img-top" alt="Movie 5 Image">
+                <h5 class="card-title"><a href="starRating.html">November Story</a></h5>
+                <p class="card-text">A celebrated crime novelist suffering from
+                    Alzheimer's is found at a murder scene with no memory of what
+                    happened</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Include Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+

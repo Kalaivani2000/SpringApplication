@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Home Page</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .welcome-header {
+            background-color: #4CAF50;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .card {
+            width: 300px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="welcome-header">
+    <h2>Welcome to the Home Page</h2>
+</div>
+
+<div class="container card-container">
+
+    <!-- Web Series Card -->
+    <div class="card">
+        <div class="card-header text-white">
+            <a href="movies.html">Movies</a>
+        </div>
+        <div class="card-body">
+            A movie or film is a type of visual art that uses images and sounds to
+            tell stories or teach people something. Most people watch movies to
+            entertain themselves or to have fun.
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header text-white">
+            <a href="webseries.html">Webseries</a>
+        </div>
+        <div class="card-body">
+            A web series is simply a series of web videos, usually in serial form,
+            posted on the Internet, that first appeared in the late 1990s and gained
+            popularity in the early to mid-2000s.
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header text-white fs-4">
+            <a href="sports.html">Sports</a>
+        </div>
+        <div class="card-body">
+            'Sport' is understood to mean all forms of physical activity that contribute
+            to physical fitness, mental well-being and social interaction. A 'Game'
+            is a physical or mental activity whose only purpose is the pleasure obtained
+            from practising it.
+        </div>
+    </div>
+</div>
+
+<!-- Add Bootstrap JS and Popper.js scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

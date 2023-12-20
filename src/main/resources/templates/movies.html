@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Movies List</title>
+
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .movie-card {
+            /* Utilizing Bootstrap card styling */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+    .back button {
+    background: none;
+    border: none;
+    color: blue; /* or any other color you prefer */
+    text-decoration: underline;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Movies</h1>
+    <div class="back">
+        <button onclick="window.location.href='index.html'">Back</button>
+    </div>
+
+    <!-- Bootstrap card -->
+    <div class="card-deck">
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://i.ytimg.com/vi/SdroWsxHYvM/maxresdefault.jpg" class="card-img-top" alt="Movie 1 Image">
+                <h5 class="card-title"><a href="starRating.html">Parking</a></h5>
+                <p class="card-text">Even though Parking is in the space of a domestic
+                    drama, Ramkumar Balakrishnan narrates it in the tone of a thriller,
+                    ratcheting up the thrills</p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://images.indianexpress.com/2023/11/Annapoorani-28112023.jpg?w=414" class="card-img-top" alt="Movie 2 Image">
+                <h5 class="card-title"><a href="starRating.html">Annapoorani</a></h5>
+                <p class="card-text">
+                    A small town girl with an orthodox upbringing aspires to become
+                    India's best chef. Uncertain events and challenges come her way as</p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://static.mirchi.in/thumb/imgsize-41262,msid-103267633,width-800,height-450,resizemode-1/103267633.jpg" class="card-img-top" alt="Movie 3 Image">
+                <h5 class="card-title"><a href="starRating.html">Irugapatru</a></h5>
+                <p class="card-text">Three couples from different economic backgrounds
+                    find ways to fix their relationships.</p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://i.ytimg.com/vi/T0C5I90Y-sA/maxresdefault.jpg" class="card-img-top" alt="Movie 4 Image">
+                <h5 class="card-title"><a href="starRating.html">Chithha</a></h5>
+                <p class="card-text">When she gets lost, Chitta goes on a search for her,
+                    and his whole life comes crashing down. What unfolds is an emotional
+                    thriller that asks the viewer, How far will you go for your child?.</p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://i.ytimg.com/vi/gbtVI54xrWE/maxresdefault.jpg" class="card-img-top" alt="Movie 5 Image">
+                <h5 class="card-title"><a href="starRating.html">Are You Ok Baby?</a></h5>
+                <p class="card-text"> They lavish her with love and care,
+                    feeling delight and fulfilment in finally becoming parents after
+                    years of desire.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Include Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

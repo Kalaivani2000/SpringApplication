@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sports List</title>
+
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .movie-card {
+            /* Utilizing Bootstrap card styling */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+    .back button {
+    background: none;
+    border: none;
+    color: blue; /* or any other color you prefer */
+    text-decoration: underline;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Sports</h1>
+    <div class="back">
+        <button onclick="window.location.href='index.html'">Back</button>
+    </div>
+
+    <!-- Bootstrap card -->
+    <div class="card-deck">
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://qph.cf2.quoracdn.net/main-qimg-4eab5c7db7cdae11a91d84b131f1fae3" class="card-img-top" alt="Movie 1 Image">
+                <h5 class="card-title"><a href="starRating.html">Silambattam.</a></h5>
+                <p class="card-text">Silambam is a well-known martial art style that
+                    is practised with specialised weapons, typically bamboo sticks.</p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://globalsportmatters.com/wp-content/uploads/2018/09/Kabaddi.jpg" class="card-img-top" alt="Movie 2 Image">
+                <h5 class="card-title"><a href="starRating.html">Kabaddi</a></h5>
+                <p class="card-text">
+                    The core idea of the game is to score points by raiding into the
+                    opponent's court and touching as many defense players as possible
+                    without getting caught on a single breath.
+                </p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-97021795/97021795.jpg" class="card-img-top" alt="Movie 3 Image">
+                <h5 class="card-title"><a href="starRating.html">Hockey</a></h5>
+                <p class="card-text">
+                    Hockey is an outdoor game played between two teams of 11 players
+                    who use long curved sticks to hit a small ball and try to score goals.
+                </p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/DPJGRQUJHVJERC3X5G35J5NCSI.jpg" class="card-img-top" alt="Movie 4 Image">
+                <h5 class="card-title"><a href="starRating.html">Cricket</a></h5>
+                <p class="card-text">
+                    Real Cricket is a "Made in India" game that provides an authentic
+                    & surreal cricket experience. The team behind Real Cricket is
+                    Nautilus Mobile, an Indian developer based in Pune.
+                </p>
+            </div>
+        </div>
+
+        <div class="card movie-card">
+            <div class="card-body">
+                <img src="https://img.freepik.com/premium-photo/goalkeeper-kicks-ball-stadium-during-football-game_207634-3940.jpg" class="card-img-top" alt="Movie 5 Image">
+                <h5 class="card-title"><a href="starRating.html">Football</a></h5>
+                <p class="card-text">
+                    Football is a game involving two teams of 11 players who try
+                    to maneuver the ball into the other team's goal without using
+                    their hands or arms
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Include Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
